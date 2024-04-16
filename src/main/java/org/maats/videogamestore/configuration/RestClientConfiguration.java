@@ -9,7 +9,7 @@ import org.springframework.context.annotation.Configuration;
 public class RestClientConfiguration {
 
     @Bean
-    public OkHttpClient configureOkHttpClient() {
+    public OkHttpClient defaultOkHttpClient() {
         return new OkHttpClient();
     }
 }

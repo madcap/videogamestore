@@ -24,10 +24,10 @@ java -jar build/libs/videogamestore-0.0.1-SNAPSHOT.jar
 
 search for a video game:
 ```
-http://localhost:8080/search?phrase=darktide
+GET http://localhost:8080/search?phrase=helldivers
 ```
 
 check out a video game:
 ```
-TODO
+GET http://localhost:8080/checkout/3030-89235
 ```
